@@ -166,7 +166,7 @@ int main() {
 
 项目详细优化原理、源码解析与实现细节，可参考我的技术博客：
 
-muduo http优化 —— 在原本数据监测http上 多支持了功能完善的http_1.1
+[muduo http优化 —— 在原本数据监测http上 多支持了功能完善的http_1.1](https://blog.csdn.net/m0_62807361/article/details/159774170?spm=1001.2014.3001.5501)
 
 ## 📄 开源许可证
 
