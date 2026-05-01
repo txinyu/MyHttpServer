@@ -116,7 +116,7 @@ void HttpServer::onMessage(const muduo::net::TcpConnectionPtr& conn,
 
 bool HttpServer::handleRequest(const TcpConnectionPtr& conn, HttpContext* context) {
     HttpRequest& req = context->request();
-    HttpResponse resp(req.is_keep_alive());
+    HttpResponse resp(!req.is_keep_alive());
 
     // 请求体大小限制（假设最大 10MB）
     const size_t maxBodySize = 10 * 1024 * 1024;
